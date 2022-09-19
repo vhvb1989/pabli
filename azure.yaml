@@ -9,7 +9,3 @@ services:
     dist: build
     language: js
     host: appservice
-  api:
-    project: ./src/api
-    language: js
-    host: appservice
