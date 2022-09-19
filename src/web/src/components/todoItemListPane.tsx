@@ -198,7 +198,7 @@ const TodoItemListPane: FC<TodoItemListPaneProps> = (props: TodoItemListPaneProp
                 <form onSubmit={onFormSubmit}>
                     <Stack horizontal styles={stackStyles}>
                         <Stack.Item grow={1}>
-                            <SearchBox value={newItemName} placeholder="Add an item" iconProps={addIconProps} onChange={onNewItemChanged} />
+                            <SearchBox value={newItemName} placeholder="paaaablo" iconProps={addIconProps} onChange={onNewItemChanged} />
                         </Stack.Item>
                         <Stack.Item>
                             <CommandBar
