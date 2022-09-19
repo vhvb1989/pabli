@@ -5,7 +5,7 @@ metadata:
   template: todo-nodejs-mongo@0.0.1-beta
 services:
   web:
-    project: ./src/web
+    project: ./src/empty-front-end
     dist: build
     language: js
     host: appservice
